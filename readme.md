@@ -1,3 +1,7 @@
-Python scripts to do content searching based on cosine similarity, and to access deployed ML model via Google AI Platform
+Python scripts to do text classification to 1 out of 5 possible categories.
 
-Dockerize and built into a flask app, working in Google Cloud Run
+contains flask file, python file and model file
+
+main.py used for routing, while search.py used for pre-processing, classification and dumping json response
+
+intended to be deplyed at Heroku with gunicorn dyno
